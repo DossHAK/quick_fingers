@@ -23,11 +23,13 @@ body a {
 }
 .maket .images {
   display: flex;
+  flex-wrap: wrap;
 }
 .maket .images .image {
   text-align: center;
   margin: 15px;
 }
 .maket .images img {
-  width: 400px;
+  width: 300px;
+  border: 2px solid #000000;
 }/*# sourceMappingURL=style.css.map */
