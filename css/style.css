@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #fa9d61;
+  color: #000000;
+  font-family: sans-serif;
+}
+body a {
+  color: #000000;
+}
+
+.stop {
+  width: 100vw;
+}
+.stop button {
+  width: 100vw;
+  height: 30px;
+  font-weight: bold;
+}
+
+.maket .maket__logo {
+  text-align: center;
+}
+.maket .images {
+  display: flex;
+}
+.maket .images .image {
+  text-align: center;
+  margin: 15px;
+}
+.maket .images img {
+  width: 400px;
+}/*# sourceMappingURL=style.css.map */

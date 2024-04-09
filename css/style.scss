@@ -1,0 +1,49 @@
+$body_bg: #fa9d61;
+$body_color: #000000;
+$body_a_color: #000000;
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: $body_bg;
+    color: $body_color;
+    font-family: sans-serif;
+
+    a {
+        color: $body_a_color;
+    }    
+}
+
+.stop {
+    width: 100vw;
+
+    button {
+        width: 100vw;
+        height: 30px;
+        font-weight: bold;
+    }
+}
+
+
+.maket {
+
+    .maket__logo {
+        text-align: center;
+    }
+
+    .images {
+        display: flex;
+
+        .image {
+            text-align: center;
+            margin: 15px;
+        }
+        
+        img {
+            width: 400px;
+        }
+    }
+}
